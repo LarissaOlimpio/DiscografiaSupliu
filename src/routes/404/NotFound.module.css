@@ -1,0 +1,28 @@
+.notFound{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  gap: 1rem;
+  padding: 1rem;
+
+}
+.notFound h1{
+  font-size: 2rem;
+}
+.notFound p{
+  font-size: 1.5rem;
+}
+@media (min-width: 1200px) {
+  .notFound {
+    width: 80vw;
+    padding: 2rem;
+  }
+  .notFound h1{
+    font-size: 3rem;
+  }
+  .notFound p{
+    font-size: 2rem;
+  }
+}
