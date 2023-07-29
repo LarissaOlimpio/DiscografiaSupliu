@@ -38,7 +38,7 @@ export const AlbumPage = () => {
         </Link>
       </div>
 
-      <div className="flex items-center gap-2">
+      <div className="flex items-center justify-center gap-2">
         <h2>🎵 Faixas</h2>
         <button className="blue" onClick={handleAddTrack}>
           ➕ Adicionar Faixa

@@ -14,7 +14,7 @@ export function Home() {
 
   return (
     <div>
-      <div className="flex gap-2 items-center">
+      <div className="flex gap-2  items-start col  ">
         <h2>{userIsAddingAlbum ? "Adicionar" : "Pesquise por um"} álbum</h2>
         <button className="blue" onClick={handleAddAlbum}>
           ➕ Adicionar Album

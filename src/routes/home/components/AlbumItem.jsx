@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import { useStore } from '../../../hooks/useStore';
-import { Link } from 'react-router-dom';
+import { useState } from "react";
+import { useStore } from "../../../hooks/useStore";
+import { Link } from "react-router-dom";
 
 function AlbumItem({ album }) {
   const [userIsDeleting, setUserIsDeleting] = useState(false);
@@ -23,8 +23,9 @@ function AlbumItem({ album }) {
     <li key={album.id}>
       <div>
         <h3>
-          <strong>Título:</strong>
-          {album.name}
+          <strong>
+            Álbum: {album.name},{album.year}
+          </strong>
         </h3>
         <h4>
           <strong>Ano:</strong>
@@ -44,7 +45,9 @@ function AlbumItem({ album }) {
               <button className="red" onClick={handleDeleteConfirm}>
                 Sim
               </button>
-              <button className="white" onClick={handleDeleteCancel}>Cancelar</button>
+              <button className="white" onClick={handleDeleteCancel}>
+                Cancelar
+              </button>
             </div>
           </div>
         ) : (
