@@ -1,29 +1,44 @@
-# Discografia
+# Discografia Supliu
 
-interfaces acessíveis através de um browser que permite o usuário a gerenciar a
-discografia da dupla caipira Tião Carreiro e Pardinho 🤠. 
+Este é um projeto de Discografia Online que permite o gerenciamento da discografia da dupla caipira Tião Carreiro e Pardinho 🤠. O sistema foi desenvolvido com Vite utilizando React com JavaScript, aproveitando recursos como useContext, routes do React Router DOM e e axios para consumo da Api e funcionalidades de paginação para proporcionar uma experiência rica e interativa ao usuário. Bem como a biblioteca React Toastify para notificações de mensagens de erro e de sucesso para o usuário.
+
+</br>  URL         | https://discografia-supliu.vercel.app/
+
+## Funcionalidades
+* Ver lista de álbuns e faixas
+* Pesquisar álbuns por nome
+* Adicionar um novo álbum
+* Adicionar uma nova faixa em um álbum
+* Excluir uma faixa
+* Excluir um álbum
+* consumir os métodos da API REST disponível no link `https://tiao.supliu.com.br/`
+
+
+| Tecnologia      | Versão       |
+|-----------------|--------------|
+| React           | 18.2.0     |
+| JavaScript      | ES6          |
+| React Router DOM| 6.14.2      |
+| React Toastify| 9.1.3      |
+| Vite            | 4.4.5     |
+| Axios | 1.4.0    |
+
+## Instalação
+1. Faça o clone do repositório para o seu computador.
+2. Acesse a pasta do projeto através do terminal ou prompt de comando.
+3. Instale as dependências do projeto com o comando: npm install ou yarn install.
+
+## Como Utilizar
+1. Inicie o servidor de desenvolvimento com o comando: npm run dev ou yarn dev.
+2. Abra o navegador e acesse o endereço: http://localhost:3000 (ou a porta definida).
+3. Você será redirecionado para a página inicial do projeto.
+4. Navegue pelas páginas e utilize as funcionalidades de procurar por álbum, editar e excluir álbuns e faixas
+5. Utilize os recursos de paginação para navegar entre os álbuns de forma mais fácil.
+
+## Contato
+Se tiver alguma dúvida ou precisar de mais informações, entre em contato através do email: lrsolimpio@gmail.com
 
 
 
-## Requisitos
-1) Ver lista de álbuns e faixas
-2) Pesquisar álbuns por nome
-3) Adicionar um novo álbum
-4) Adicionar uma nova faixa em um álbum
-5) Excluir uma faixa
-6) Excluir um álbum
-7) Interfaces devem ser criadas utilizando a biblioteca React.js
-8) consumir os métodos da API REST disponível no link `https://tiao.supliu.com.br/`
 
-> Este sistema se encontra em desenvolvimento.
 
-</br> :rocket: URL         | https://discografia-supliu.vercel.app/
-
-### Como rodar o projeto:
-
-**Você pode clonar o projeto e rodá-lo localmente seguindo os passos abaixo**
-
-1. `https://github.com/LarissaOlimpio/Discografia.git` para clonar o projeto
-2. `yarn` ou `npm install` para instalar as dependências do projeto
-3. `yarn start` ou `npm start` para rodar o projeto
-4. Acessar [http://localhost:3000](http://localhost:3000) no navegador
