@@ -32,10 +32,18 @@ function AlbumList() {
         ))}
       </ul>
       <div className="flex justify-center">
-        <button  className="blue" onClick={goToPreviousPage} disabled={currentPage === 1}>
+        <button
+          className="blue"
+          onClick={goToPreviousPage}
+          disabled={currentPage === 1}
+        >
           Anterior
         </button>
-        <button className="blue" onClick={goToNextPage} disabled={currentPage === totalPages}>
+        <button
+          className="blue"
+          onClick={goToNextPage}
+          disabled={currentPage === totalPages}
+        >
           Próxima
         </button>
       </div>

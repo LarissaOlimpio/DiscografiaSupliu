@@ -2,7 +2,6 @@ import { useState } from "react";
 import { useStore } from "../../../hooks/useStore";
 import { TextField } from "../../../components/TextField";
 
-
 function SearchInput() {
   const [search, setSearch] = useState("");
 
@@ -14,7 +13,7 @@ function SearchInput() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    
+
     searchAlbum(search);
   };
 
@@ -31,16 +30,13 @@ function SearchInput() {
             Digite uma palavra chave:
           </TextField>
 
-
           <button className="blue" type="submit">
             {" "}
             Procurar
           </button>
         </div>
       </div>
-     
     </form>
-    
   );
 }
 

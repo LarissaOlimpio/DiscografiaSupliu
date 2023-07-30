@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { useStore } from '../../../hooks/useStore';
+import { useState } from "react";
+import { useStore } from "../../../hooks/useStore";
 
 const formatSeconds = (seconds) => {
   const minutes = Math.floor(seconds / 60);
@@ -47,7 +47,9 @@ function Track({ track }) {
             <button className="red" onClick={handleDeleteConfirm}>
               Sim
             </button>
-            <button className="white" onClick={handleDeleteCancel}>Cancelar</button>
+            <button className="white" onClick={handleDeleteCancel}>
+              Cancelar
+            </button>
           </div>
         </div>
       ) : (

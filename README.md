@@ -17,7 +17,7 @@ discografia da dupla caipira Tião Carreiro e Pardinho 🤠.
 
 > Este sistema se encontra em desenvolvimento.
 
-<!--</br> :rocket: URL         | -->
+</br> :rocket: URL         | https://discografia-supliu.vercel.app/
 
 ### Como rodar o projeto:
 

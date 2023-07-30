@@ -2,7 +2,6 @@ import { useState } from "react";
 import { useStore } from "../../../hooks/useStore";
 import { TextField } from "../../../components/TextField";
 
-
 function AddAlbum({ hide }) {
   const [name, setName] = useState("");
   const [year, setYear] = useState(1980);
@@ -46,7 +45,7 @@ function AddAlbum({ hide }) {
       </div>
 
       <div className="flex row justify-end">
-      <button className="white" type="button" onClick={hide}>
+        <button className="white" type="button" onClick={hide}>
           Cancelar
         </button>
 

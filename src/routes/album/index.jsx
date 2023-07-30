@@ -1,9 +1,8 @@
-import { useParams, useNavigate, Link } from 'react-router-dom';
-import { useStore } from '../../hooks/useStore';
-import { useEffect, useMemo, useState } from 'react';
-import Track from './component/Track';
-import AddTrack from './component/AddTrack';
-
+import { useParams, useNavigate, Link } from "react-router-dom";
+import { useStore } from "../../hooks/useStore";
+import { useEffect, useMemo, useState } from "react";
+import Track from "./component/Track";
+import AddTrack from "./component/AddTrack";
 
 export const AlbumPage = () => {
   const { id } = useParams();
@@ -23,7 +22,7 @@ export const AlbumPage = () => {
 
   useEffect(() => {
     if (!album) {
-      return navigate('/404');
+      return navigate("/404");
     }
   }, [album, navigate]);
 

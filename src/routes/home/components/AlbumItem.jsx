@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 function AlbumItem({ album }) {
   const [userIsDeleting, setUserIsDeleting] = useState(false);
-  
 
   const { deleteAlbum } = useStore();
 

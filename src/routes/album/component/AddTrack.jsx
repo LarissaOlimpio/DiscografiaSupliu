@@ -2,7 +2,6 @@ import { useState } from "react";
 import { useStore } from "../../../hooks/useStore";
 import { TextField } from "../../../components/TextField";
 
-
 function AddTrack({ albumId, hide }) {
   const [number, setNumber] = useState(0);
   const [title, setTitle] = useState("");
@@ -62,7 +61,7 @@ function AddTrack({ albumId, hide }) {
       </div>
 
       <div className="flex row justify-end">
-      <button className="white" type="button" onClick={hide}>
+        <button className="white" type="button" onClick={hide}>
           Cancelar
         </button>
 

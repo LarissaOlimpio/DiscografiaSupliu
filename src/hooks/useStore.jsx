@@ -1,10 +1,10 @@
-import { createContext, useContext, useState } from 'react';
-import { getAlbums } from '../api/getAlbums';
-import { deleteAlbum as apiDeleteAlbum } from '../api/deleteAlbum';
-import { deleteTrack as apiDeleteTrack } from '../api/deleteTrack';
-import { addTrack as apiAddTrack } from '../api/addTrack';
-import { addAlbum as apiAddAlbum } from '../api/addAlbum';
-import { toast } from 'react-toastify';
+import { createContext, useContext, useState } from "react";
+import { getAlbums } from "../api/getAlbums";
+import { deleteAlbum as apiDeleteAlbum } from "../api/deleteAlbum";
+import { deleteTrack as apiDeleteTrack } from "../api/deleteTrack";
+import { addTrack as apiAddTrack } from "../api/addTrack";
+import { addAlbum as apiAddAlbum } from "../api/addAlbum";
+import { toast } from "react-toastify";
 
 const storeContext = createContext({});
 
@@ -13,7 +13,7 @@ export const StoreProvider = ({ children }) => {
     currentPage: 1,
     items: null,
   });
- 
+
   const [isLoadingAlbums, setIsLoadingAlbums] = useState(false);
   const searchAlbum = async (search) => {
     setIsLoadingAlbums(true);
@@ -28,7 +28,6 @@ export const StoreProvider = ({ children }) => {
       items: response.data,
     });
     setIsLoadingAlbums(false);
-
   };
 
   const addAlbum = async (album) => {
@@ -42,7 +41,7 @@ export const StoreProvider = ({ children }) => {
         items: [albumData, ...(prevState.items ?? [])],
       }));
 
-      toast.success('Album adicionado com sucesso!');
+      toast.success("Album adicionado com sucesso!");
     } catch (err) {
       toast.error(err.response.data.error);
     }
@@ -75,7 +74,7 @@ export const StoreProvider = ({ children }) => {
         }),
       }));
 
-      toast.success('Faixa adicionada com sucesso!');
+      toast.success("Faixa adicionada com sucesso!");
     } catch (err) {
       toast.error(err.response.data.error);
     }
@@ -119,7 +118,7 @@ export const useStore = () => {
   const context = useContext(storeContext);
 
   if (!context) {
-    throw new Error('useStore must be used within a StoreProvider.');
+    throw new Error("useStore must be used within a StoreProvider.");
   }
 
   return context;
