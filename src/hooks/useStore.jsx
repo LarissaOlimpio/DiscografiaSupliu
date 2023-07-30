@@ -13,12 +13,13 @@ export const StoreProvider = ({ children }) => {
     currentPage: 1,
     items: null,
   });
+ 
   const [isLoadingAlbums, setIsLoadingAlbums] = useState(false);
   const searchAlbum = async (search) => {
     setIsLoadingAlbums(true);
     const response = await getAlbums({
       keyword: search,
-      limit: 10,
+      limit: 100,
       page: 1,
     });
 
@@ -27,6 +28,7 @@ export const StoreProvider = ({ children }) => {
       items: response.data,
     });
     setIsLoadingAlbums(false);
+
   };
 
   const addAlbum = async (album) => {
