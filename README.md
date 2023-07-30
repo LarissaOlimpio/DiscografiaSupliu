@@ -1,6 +1,6 @@
 # Discografia Supliu
 
-Este é um projeto de Discografia Online que permite o gerenciamento da discografia da dupla caipira Tião Carreiro e Pardinho 🤠. O sistema foi desenvolvido com Vite utilizando React com JavaScript, aproveitando recursos como useContext, routes do React Router DOM e e axios para consumo da Api e funcionalidades de paginação para proporcionar uma experiência rica e interativa ao usuário. Bem como a biblioteca React Toastify para notificações de mensagens de erro e de sucesso para o usuário.
+Este é um projeto de Discografia Online que permite o gerenciamento da discografia da dupla caipira Tião Carreiro e Pardinho 🤠. O sistema foi desenvolvido com Vite utilizando React com JavaScript, aproveitando recursos como useContext, routes do React Router DOM, axios para consumo da Api, a biblioteca React Toastify para notificações de mensagens de erro e de sucesso para o usuário, além de funcionalidades de paginação para proporcionar uma experiência rica e interativa ao usuário.
 
 </br>  URL         | https://discografia-supliu.vercel.app/
 
