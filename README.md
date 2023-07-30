@@ -4,6 +4,8 @@ Este é um projeto de Discografia Online que permite o gerenciamento da discogra
 
 </br>  URL         | https://discografia-supliu.vercel.app/
 
+https://github.com/LarissaOlimpio/DiscografiaSupliu/assets/50180854/3aa61e8f-07b7-4991-9c88-ba9759fd9cce
+
 ## Funcionalidades
 * Ver lista de álbuns e faixas
 * Pesquisar álbuns por nome
@@ -11,7 +13,7 @@ Este é um projeto de Discografia Online que permite o gerenciamento da discogra
 * Adicionar uma nova faixa em um álbum
 * Excluir uma faixa
 * Excluir um álbum
-* consumir os métodos da API REST disponível no link `https://tiao.supliu.com.br/`
+
 
 
 | Tecnologia      | Versão       |
@@ -22,6 +24,16 @@ Este é um projeto de Discografia Online que permite o gerenciamento da discogra
 | React Toastify| 9.1.3      |
 | Vite            | 4.4.5     |
 | Axios | 1.4.0    |
+
+## API Utilizada
+API da Discografia do Tião Carreiro & Pardinho - Supliu Tecnologia  [link_para_documentacao](https://tiao.supliu.com.br/)
+
+## Recursos da API
+ 1. Listar Álbuns.
+ 2. Criar Álbuns.
+ 3. Excluir Álbuns.
+ 4. Adicionar Faixa.
+ 5. Excluir Faixa.
 
 ## Instalação
 1. Faça o clone do repositório para o seu computador.
